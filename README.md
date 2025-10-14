@@ -482,6 +482,8 @@ Check out this TikTok post highlighting the collaboration:
 - **UTH Official Website**: [http://ut.edu.vn](http://ut.edu.vn)  
 - **VinFast Official Website**: [https://vinfast.com](https://vinfast.com)
 
+<img width="1024" height="535" alt="image" src="https://github.com/user-attachments/assets/b4588c45-8e08-4dbb-acee-b03667f668a5" />
+<img width="1024" height="535" alt="image" src="https://github.com/user-attachments/assets/74c87936-58be-4641-8195-3e74b88437d8" />
 
 
 ---------------
