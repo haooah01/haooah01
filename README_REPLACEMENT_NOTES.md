@@ -1,7 +1,8 @@
 # README Replacement Notes
 
 <p align="center">
-  <a href="./README.md">Main README</a> ·
+  <a href="./README.md">Main Visual README</a> ·
+  <a href="./README_PROOF_BASED_IT_PRESENCE.md">Proof-Based README</a> ·
   <a href="./README_REWRITE_PROMPT.md">Rewrite Prompt</a> ·
   <a href="./README_REPLACEMENT_NOTES.md">Replacement Notes</a>
 </p>
@@ -14,6 +15,7 @@
 This file explains how to deploy and maintain the linked README system.
 
 - Main profile file: [README.md](./README.md)
+- Professional proof-based companion: [README_PROOF_BASED_IT_PRESENCE.md](./README_PROOF_BASED_IT_PRESENCE.md)
 - Rewrite engine prompt: [README_REWRITE_PROMPT.md](./README_REWRITE_PROMPT.md)
 - This deployment guide: [README_REPLACEMENT_NOTES.md](./README_REPLACEMENT_NOTES.md)
 
@@ -21,9 +23,9 @@ This file explains how to deploy and maintain the linked README system.
 
 ## Why this rewrite is stronger
 
-The old README creates visual impact, but it overuses decorative language and repeated animated/stat components. That weakens technical credibility for recruiters, maintainers, and engineering communities.
+The main README keeps the original visual impact as the head file. The proof-based companion file exists to provide a cleaner technical signal for recruiters, maintainers, and engineering communities.
 
-The new README shifts the signal from:
+The companion README shifts the signal from:
 
 ```text
 Decoration -> Claims -> Effects
@@ -39,13 +41,16 @@ Positioning -> Projects -> Evidence -> Improvement path
 
 ```text
 README.md
-  -> public-facing profile
-  -> links to rewrite prompt
-  -> links to replacement notes
+  -> main visual public-facing profile
+  -> links to all three companion files
+
+README_PROOF_BASED_IT_PRESENCE.md
+  -> professional proof-based companion README
+  -> links back to the main README, prompt, and notes
 
 README_REWRITE_PROMPT.md
   -> reusable AI prompt
-  -> regenerates README.md
+  -> regenerates README_PROOF_BASED_IT_PRESENCE.md
   -> points back to README.md and notes
 
 README_REPLACEMENT_NOTES.md
@@ -56,22 +61,23 @@ README_REPLACEMENT_NOTES.md
 
 ## Required Repository Layout
 
-Put all three files in the root of the public profile repository:
+Put all four files in the root of the public profile repository:
 
 ```text
 haooah01/
 ├── README.md
+├── README_PROOF_BASED_IT_PRESENCE.md
 ├── README_REWRITE_PROMPT.md
 └── README_REPLACEMENT_NOTES.md
 ```
 
-Do not put the prompt and notes in another folder unless you also update the links.
+Do not put any of the three companion files in another folder unless you also update the links.
 
 ## What to do after replacing README.md
 
-1. Put these files in the public repository named exactly `haooah01`.
+1. Put these four files in the public repository named exactly `haooah01`.
 2. Make sure the main file is named `README.md`.
-3. Keep `README_REWRITE_PROMPT.md` and `README_REPLACEMENT_NOTES.md` in the same root folder.
+3. Keep `README_PROOF_BASED_IT_PRESENCE.md`, `README_REWRITE_PROMPT.md`, and `README_REPLACEMENT_NOTES.md` in the same root folder.
 4. Open `README.md` on GitHub and click each navigation link.
 5. Pin up to 6 repositories on your GitHub profile.
 6. For each pinned repo, add a strong project README with:
@@ -99,11 +105,17 @@ Do not put the prompt and notes in another folder unless you also update the lin
 
 | Test | Pass Condition |
 |---|---|
+| `README.md -> README_PROOF_BASED_IT_PRESENCE.md` | Proof-based file opens |
 | `README.md -> README_REWRITE_PROMPT.md` | Prompt file opens |
 | `README.md -> README_REPLACEMENT_NOTES.md` | Notes file opens |
-| `README_REWRITE_PROMPT.md -> README.md` | Main profile README opens |
+| `README_PROOF_BASED_IT_PRESENCE.md -> README.md` | Main visual README opens |
+| `README_PROOF_BASED_IT_PRESENCE.md -> README_REWRITE_PROMPT.md` | Prompt file opens |
+| `README_PROOF_BASED_IT_PRESENCE.md -> README_REPLACEMENT_NOTES.md` | Notes file opens |
+| `README_REWRITE_PROMPT.md -> README.md` | Main visual README opens |
+| `README_REWRITE_PROMPT.md -> README_PROOF_BASED_IT_PRESENCE.md` | Proof-based file opens |
 | `README_REWRITE_PROMPT.md -> README_REPLACEMENT_NOTES.md` | Notes file opens |
-| `README_REPLACEMENT_NOTES.md -> README.md` | Main profile README opens |
+| `README_REPLACEMENT_NOTES.md -> README.md` | Main visual README opens |
+| `README_REPLACEMENT_NOTES.md -> README_PROOF_BASED_IT_PRESENCE.md` | Proof-based file opens |
 | `README_REPLACEMENT_NOTES.md -> README_REWRITE_PROMPT.md` | Prompt file opens |
 
-If one link fails, check whether all three files are in the same folder and whether the file names match exactly.
+If one link fails, check whether all four files are in the same folder and whether the file names match exactly.

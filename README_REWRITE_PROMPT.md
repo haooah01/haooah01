@@ -1,7 +1,8 @@
 # Prompt: Rewrite My GitHub Profile README Into a Proof-Based IT Presence
 
 <p align="center">
-  <a href="./README.md">Main README</a> ·
+  <a href="./README.md">Main Visual README</a> ·
+  <a href="./README_PROOF_BASED_IT_PRESENCE.md">Proof-Based README</a> ·
   <a href="./README_REWRITE_PROMPT.md">Rewrite Prompt</a> ·
   <a href="./README_REPLACEMENT_NOTES.md">Replacement Notes</a>
 </p>
@@ -13,7 +14,7 @@
 
 This file is the reusable prompt used to regenerate or upgrade the main profile file:
 
-- Main output file: [README.md](./README.md)
+- Main output file: [README_PROOF_BASED_IT_PRESENCE.md](./README_PROOF_BASED_IT_PRESENCE.md)
 - Deployment guide: [README_REPLACEMENT_NOTES.md](./README_REPLACEMENT_NOTES.md)
 
 Use this prompt when the profile needs to be rewritten after new projects, new skills, or stronger evidence appear.
@@ -92,11 +93,12 @@ Keep only what improves:
 
 ## Required Cross-Linking
 
-The generated README must include this navigation block near the top:
+The generated proof-based README must include this navigation block near the top:
 
 ```html
 <p align="center">
-  <a href="./README.md">Main README</a> ·
+  <a href="./README.md">Main Visual README</a> ·
+  <a href="./README_PROOF_BASED_IT_PRESENCE.md">Proof-Based README</a> ·
   <a href="./README_REWRITE_PROMPT.md">Rewrite Prompt</a> ·
   <a href="./README_REPLACEMENT_NOTES.md">Replacement Notes</a>
 </p>
@@ -107,14 +109,15 @@ It must also include a small document map:
 ```markdown
 | File | Role | Use When |
 |---|---|---|
-| [README.md](./README.md) | Main public profile README | Put this in the root of `haooah01/haooah01` |
-| [README_REWRITE_PROMPT.md](./README_REWRITE_PROMPT.md) | Prompt for regenerating or upgrading this README | Use when you want ChatGPT/AI to rewrite the profile again |
-| [README_REPLACEMENT_NOTES.md](./README_REPLACEMENT_NOTES.md) | Deployment and cleanup notes | Use before replacing the old README and pinning repositories |
+| [README.md](./README.md) | Main public profile README, original visual version | Use as the visible GitHub profile entry file |
+| [README_PROOF_BASED_IT_PRESENCE.md](./README_PROOF_BASED_IT_PRESENCE.md) | Professional proof-based alternate README | Use when you want a cleaner recruiter / engineering version |
+| [README_REWRITE_PROMPT.md](./README_REWRITE_PROMPT.md) | Prompt for regenerating or upgrading the proof-based README | Use when new projects, skills, or evidence appear |
+| [README_REPLACEMENT_NOTES.md](./README_REPLACEMENT_NOTES.md) | Deployment, cleanup, and link-check notes | Use before replacing files or changing the profile structure |
 ```
 
 ## Output Requirements
 
-Create a complete `README.md`.
+Create a complete `README_PROOF_BASED_IT_PRESENCE.md`.
 
 Use this structure:
 
@@ -164,8 +167,8 @@ A sci-fi character profile with exaggerated badges.
 - Keep emojis minimal or none.
 - Keep external images minimal.
 - Make the file usable directly as a GitHub profile README.
-- Assume this is for the root `README.md` inside the public repository named exactly `haooah01`.
+- Assume this is for the root companion file `README_PROOF_BASED_IT_PRESENCE.md` inside the public repository named exactly `haooah01`.
 
 ## Final Output Format
 
-Return only the complete Markdown content for `README.md`.
+Return only the complete Markdown content for `README_PROOF_BASED_IT_PRESENCE.md`.
